@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>phantomx_reactor_arm_v2</name>
+  <version>1.1.1</version>
+  <description>The phantomx_reactor_arm v2 package</description>
+
+  <maintainer email="ye.tian@iquotient-robotics.com">Ye Tian</maintainer>
+  <author email="ye.tian@iquotient-robotics.com">Ye Tian</author>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/I-Quotient-Robotics/phantomx_reactor_arm_v2</url>
+  <url type="repository">https://github.com/I-Quotient-Robotics/phantomx_reactor_arm_v2.git</url>
+  <url type="bugtracker">https://github.com/I-Quotient-Robotics/phantomx_reactor_arm_v2/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>phantomx_reactor_arm_description</run_depend>
+  <run_depend>phantomx_reactor_arm_controller</run_depend>
+
+  <export><metapackage/></export>
+</package>
