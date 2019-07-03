@@ -17,8 +17,8 @@
   <xacro:property name="wrist_roll_upper_limit" value="${PI}"/>
   <xacro:property name="wrist_roll_lower_limit" value="-${PI}"/>
   
-  <xacro:property name="gripper_joint_upper_limit" value="0.0"/>
-  <xacro:property name="gripper_joint_lower_limit" value="0.03"/>
+  <xacro:property name="gripper_joint_upper_limit" value="0.03"/>
+  <xacro:property name="gripper_joint_lower_limit" value="0.001"/>
   
   
   <xacro:macro name="phantomx_reactor_arm_no_wrist" params="parent prefix *origin">
