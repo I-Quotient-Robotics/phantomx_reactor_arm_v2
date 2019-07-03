@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import roslib; roslib.load_manifest('phantomx_reactor_arm_controller')
+import roslib; roslib.load_manifest('phantomx_reactor_arm_controller_v2')
 import rospy
 import actionlib
 from control_msgs.msg import *
