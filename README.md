@@ -20,9 +20,11 @@ The arm can only be controlled through USB2Dynamixel.
 ### Downloading the package
 
 clone the repo into your workspace and compile it.
+
 ```bash
 git clone https://github.com/RobotnikAutomation/phantomx_reactor_arm.git
 ```
+
 ### Creating the udev rule for the device
 
 #### For the USB2Dynamixel
@@ -51,14 +53,16 @@ sudo udevadm trigger
 #### USB2Dynamixel Controller
 
 * Run the controller
+
 ```bash
 roslaunch phantomx_reactor_arm_description_v2 dynamixel_phantomx_reactor_arm_no_wrist.launch 
 ```
 
 * Run Moveit plugin for RVIZ
 Running moveit with the real controllers
+
 ```bash
-roslaunch phantomx_reactor_arm_moveit_config demo_real.launch
+roslaunch phantomx_reactor_arm_moveit_config_v2 execute.launch
 ```
 
 ### Commanding the controller 
